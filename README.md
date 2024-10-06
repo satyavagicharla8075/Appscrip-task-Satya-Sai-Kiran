@@ -36,18 +36,16 @@ Before you begin, ensure you have the following installed:
 - npm (Node Package Manager)
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd product-listing-page
 Install the dependencies:
 
-bash
-Copy code
+
 npm install
 Start the development server:
 
-bash
-Copy code
+
+
 npm run dev
 Open your browser and go to http://localhost:3000 to see the application in action.
 
