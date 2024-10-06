@@ -1,0 +1,105 @@
+/* styles/Footer.module.css */
+
+.footer {
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 20px; /* Padding for top/bottom and sides */
+    text-align: center; /* Center text */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the footer */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.subscribe {
+    margin-bottom: 30px; /* Space below subscription area */
+}
+
+.subscribe h2 {
+    margin: 0 0 10px; /* No margin above, small margin below */
+}
+
+.subscribe p {
+    margin: 0 0 20px; /* No margin above, space below */
+}
+
+.subscribe form {
+    display: flex; /* Flex layout for form */
+    justify-content: center; /* Center the form elements */
+}
+
+.subscribe input {
+    padding: 10px; /* Padding for input */
+    border: none; /* No border */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+}
+
+.subscribe button {
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    background-color: #e74c3c; /* Button color */
+    color: white; /* White text for button */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    cursor: pointer; /* Cursor pointer */
+}
+
+.subscribe button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+.footerLinks {
+    display: flex; /* Flex layout for footer links */
+    justify-content: space-around; /* Space out sections */
+    flex-wrap: wrap; /* Allow wrapping */
+    margin: 20px 0; /* Space around links */
+    
+}
+
+.footerLinks div {
+    flex: 1; /* Take up equal space */
+    min-width: 200px; /* Minimum width for sections */
+    margin: 0 10px; /* Space between sections */
+    cursor: pointer;
+}
+
+.footerLinks h3 {
+    margin-bottom: 10px; /* Space below headers */
+}
+
+.footerLinks ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+}
+
+.footerLinks li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.socialIcons a {
+    margin: 0 10px; /* Space between social icons */
+    color: #ffffff; /* White icons */
+}
+
+.paymentIcons {
+    display: flex; /* Ensure it uses flexbox */
+    justify-content: center; /* Center payment icons */
+    margin-right: 10px; /* Right margin */
+    gap: 20px; /* Adjust the value to your desired gap size */
+    cursor: pointer;
+}
+
+
+.copyRight {
+    margin-top: 20px; /* Space above copyright */
+    font-size: 14px; /* Smaller font size */
+    color: #b0b0b0; /* Slightly gray color for copyright */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footerLinks {
+        flex-direction: column; /* Stack sections on smaller screens */
+        align-items: center; /* Center align */
+    }
+}
